@@ -1,5 +1,5 @@
 # Frontend Mentor - Profile card component
-
+livepreview link: https://chamumutezva.github.io/profile-card-component-main/
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
