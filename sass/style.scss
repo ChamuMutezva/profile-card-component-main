@@ -16,7 +16,34 @@ body {
 header {
     position: relative;
     padding-bottom: 1px;
+    z-index: 10;
 }
+body::before {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    mix-blend-mode: normal;
+    transform: translate(-50%, -50%);
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+body::after {
+    z-index: 1;
+    position: absolute;
+    content: "";
+    top: 37%;
+    left: 57%;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/bg-pattern-bottom.svg) left top no-repeat;
+}
+
+/*
 header::before{
     position: absolute;
     top: -390px;
@@ -41,6 +68,7 @@ header::after{
     background-repeat: no-repeat;
     z-index: -1;
 }
+*/
 .card {   
     width: 90%;
     max-width: 326px;
@@ -106,6 +134,7 @@ strong {
         max-width: 350px;
              margin: 173px auto;
     }
+    /*
     header::after {       
         bottom: -300px;
         right: -626px;
@@ -119,7 +148,8 @@ strong {
         width: 100%;
         height: 150%;
         transform: rotate(-244deg);        
-    }
+    } 
+    */
 }
 @media screen and(min-width: 1440px) {
     body {
