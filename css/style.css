@@ -40,32 +40,6 @@ body::after {
   height: 100vh;
   background: url(../images/bg-pattern-bottom.svg) left top no-repeat; }
 
-/*
-header::before{
-    position: absolute;
-    top: -390px;
-    left: -380px;
-    content: "";
-    width: 622px;
-    height: 621px;
-    mix-blend-mode: normal;
-    transform: rotate(-184deg);
-    background-image: url(../images/bg-pattern-top.svg);
-    background-repeat: no-repeat
-}
-header::after{
-    position: absolute;
-    bottom: -485px;
-    right: -231px;
-    content: "";
-    transform: rotate(-33deg);
-    width: 622px;
-    height: 621px;
-    background-image: url(../images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    z-index: -1;
-}
-*/
 .card {
   width: 90%;
   max-width: 326px;
@@ -128,24 +102,7 @@ strong {
 @media screen and (min-width: 1220px) {
   .card {
     max-width: 350px;
-    margin: 173px auto; }
-
-  /*
-  header::after {       
-      bottom: -300px;
-      right: -626px;
-      transform: rotate(340deg);
-      width: 100%;
-      height: 138%;       
-  }
-  header::before {      
-      top: -278px;
-      left: -539px;       
-      width: 100%;
-      height: 150%;
-      transform: rotate(-244deg);        
-  } 
-  */ }
+    margin: 173px auto; } }
 @media screen and (min-width: 1440px) {
   body {
     max-width: 1440px;
